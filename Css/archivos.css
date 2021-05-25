@@ -1,0 +1,502 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Hind:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Exo+2:ital,wght@1,100&family=Hind:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+/*Variables*/
+/*Estilos a la seccion Index*/
+.navbar-menu {
+  position: relative;
+}
+
+.collapse {
+  position: absolute;
+  top: 58px;
+  left: 1rem;
+  width: 220px;
+  padding: 0 1rem;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.collapsing {
+  -webkit-transition: none;
+  transition: none;
+  display: none;
+}
+
+.navegador {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.iconos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.leyenda {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #474d42;
+}
+
+.enlacesSuperiores {
+  justify-content: space-around;
+  display: flex;
+  list-style-type: none;
+  background-color: red;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.enlacesSuperiores li {
+  position: relative;
+}
+
+.enlacesSuperiores ul {
+  position: absolute;
+  display: none;
+}
+
+.enlacesSuperiores ul li {
+  display: block;
+}
+
+.enlacesSuperiores li:hover ul {
+  display: block;
+}
+
+.enlacesSuperiores li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.subItem {
+  color: black;
+  line-height: 5px;
+}
+
+.publicidad {
+  background-image: url("../Img/publicidad-e1571517407869.jpg");
+  background-repeat: no-repeat;
+  background-repeat: cover;
+  background-position: center center;
+  height: 416px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tituloPrincipal {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 3;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: #474d42;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.subtit {
+  text-align: center;
+  font-size: 15px;
+}
+
+.textoNosotros {
+  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Hind", sans-serif;
+  color: #889683;
+  font-size: 20px;
+}
+
+.acceso {
+  text-align: center;
+}
+
+.acceso__Usuario {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.acceso__Contraseña {
+  text-align: center;
+  font-size: 20px;
+  margin-left: -40px;
+  margin-top: 10px;
+}
+
+.botonAcceso {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.reclamos {
+  text-align: right;
+}
+
+.reclamos a {
+  text-decoration: none;
+  color: black;
+  text-align: right;
+  margin-right: 50px;
+}
+
+/*Estilos a la seccion Productos*/
+.titulos {
+  font-family: "Noto Sans JP", sans-serif;
+  font: 40px;
+  color: #474d42;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.imagenProd:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.carousel-control-prev {
+  filter: invert(1);
+  font-size: 20px;
+}
+
+.carousel-control-next {
+  filter: invert(1);
+  font-size: 20px;
+}
+
+.carousel-item h5 {
+  font-family: "Noto Sans JP", sans-serif;
+  color: black;
+}
+
+.carousel-item h6 {
+  font-family: "Noto Sans JP", sans-serif;
+  color: black;
+}
+
+h6 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 12px;
+}
+
+/*Estilos a la seccion Consultas*/
+.seccionConsultas {
+  text-align: center;
+}
+
+.seccionConsultas__email {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.seccionConsultas__checkbox {
+  margin-top: 50px;
+}
+
+textarea {
+  transition: all 1s;
+}
+
+textarea:focus {
+  width: 400px;
+  height: 400px;
+  font-size: 25px;
+}
+
+/*Estilos a la seccion Promociones*/
+.secciones {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.secciones__imagen:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.listaPromociones {
+  text-align: center;
+}
+
+/*Estilos a la seccion Nosotros*/
+.contenedor2 {
+  text-align: center;
+  width: 50%;
+  margin-left: 550px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin-top: 100px;
+}
+
+.grid2__tituloGrid2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 150px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 40px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+.grid2__tituloGrid2 span {
+  font-weight: bold;
+}
+
+.grid2__rectangulo {
+  font-family: "Pathway Gothic One", sans-serif;
+  color: #474d42;
+  border: solid 1px grey;
+  height: 100px;
+  width: 180px;
+  border-radius: 20%;
+  padding-top: 70px;
+  transition: all 2s;
+}
+
+.grid2__rectangulo:hover {
+  background-color: #474d42;
+  color: white;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.nosotrosFlex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -100px;
+  column-gap: 200px;
+}
+
+.nosotrosFlex__bordesRedondos img {
+  border-radius: 20%;
+}
+
+.bordesRedondos h2 {
+  text-align: center;
+  padding: 50px;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+/*Estilos para la seccion Contacto*/
+.ubicacion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ubicacion__ubicacion1 {
+  text-align: left;
+  padding: 50px;
+}
+
+.ubicacion__ubicacion2 {
+  text-align: center;
+  padding: 50px;
+}
+
+.ubicacion__ubicacion3 {
+  text-align: right;
+  padding: 50px;
+}
+
+iframe {
+  margin-left: 90px;
+}
+
+/*Estilos para la seccion Reclamos*/
+.subtitulo {
+  border: solid 1px black;
+  width: 200px;
+  margin-left: 40%;
+  margin-bottom: 30px;
+}
+
+.subtitulo__Reclamos0 {
+  text-decoration: line-through;
+  text-align: center;
+}
+
+.subtitulo__Reclamos {
+  text-align: center;
+}
+
+.recuadroReclamos {
+  border: solid 2px grey;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(156, 151, 151, 0.2);
+}
+
+/*-------------------Aplicando medias-------------------*/
+@media only screen and (max-width: 768px) {
+  * {
+    padding: 0px;
+  }
+
+  .iconos a {
+    display: none;
+  }
+
+  .leyenda {
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  .enlacesSuperiores li a {
+    display: inline;
+    color: grey;
+  }
+
+  .publicidad {
+    background-image: url(../Img/publicidad-e1571517407869.jpg);
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    background-position: center center;
+    height: 416px;
+    width: 100%;
+  }
+
+  .tituloPrincipal {
+    display: none;
+  }
+
+  .subtitulo {
+    margin-top: 10px;
+  }
+
+  .accesoUsuario {
+    font-size: 15px;
+  }
+
+  .accesoContraseña {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  * {
+    padding: 0px;
+  }
+
+  .iconos a {
+    display: none;
+  }
+
+  .leyenda {
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  .enlacesSuperiores {
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+
+  .enlacesSuperiores li a {
+    display: inline;
+    color: grey;
+  }
+
+  .publicidad {
+    background-image: url("../Img/publicidadpequeña.jpg");
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    background-position: center;
+    height: 416px;
+    width: 100%;
+  }
+
+  .tituloPrincipal {
+    display: none;
+  }
+
+  .subtitulo {
+    margin-top: 10px;
+  }
+
+  .accesoUsuario {
+    font-size: 15px;
+  }
+
+  .accesoContraseña {
+    font-size: 15px;
+  }
+
+  .reclamos {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  * {
+    padding: 0px;
+  }
+
+  .leyenda {
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .publicidad {
+    background-image: url("../Img/publicidadpequeña.jpg");
+  }
+
+  .tituloPrincipal {
+    display: none;
+  }
+
+  .subtit {
+    display: none;
+  }
+
+  .accesoUsuario {
+    font-size: 15px;
+  }
+
+  .accesoContraseÃ±a {
+    font-size: 15px;
+  }
+
+  .reclamos {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=Archivos.css.map */
