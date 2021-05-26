@@ -10,7 +10,7 @@
 /*Variables*/
 
 $color: rgba(136, 150, 131, 0.5);
-$font: 25px;
+$font: 'Noto Sans JP', sans-serif;
 $width: 200px;
 $height: 200px;
 
@@ -42,7 +42,7 @@ $height: 200px;
 	margin-bottom: 50px;
 }
 .leyenda{
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: $font;
 	font-size: 20px;
 	color: black;
 	text-align: center;
@@ -59,7 +59,7 @@ $height: 200px;
 	margin-top: 20px;
 }
 .tituloPrincipal{
-	font-family: 'Noto Sans JP', sans-serif; 
+	font-family: $font;
 	line-height: 3;
 	text-transform: uppercase;
 	font-style: normal;
@@ -117,6 +117,7 @@ $height: 200px;
 	height: 140px;
 	width: auto;
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 .productos__texto{
 	font-family: 'Bebas Neue', cursive;
@@ -143,7 +144,7 @@ $height: 200px;
 }
 
 .titulos{
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: $font;
 	font: 40px;
 	color: rgb(71, 77, 66);
 	text-align: left;
@@ -162,33 +163,56 @@ $height: 200px;
 	font-size: 20px;
 }
 .carousel-item h5{
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: $font;
 	color: black;
 }
 .carousel-item h6{
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: $font;
 	color: black;
 }
 h6{
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: $font;
 	font-size: 12px;
 }
 
 
 /*Estilos a la seccion Consultas*/
 
+.pieConsultas{
+	height: 90px;
+}
+.pieConsultas a{
+	margin-right: 10px;
+}
+.imagenJames{
+	text-align: right;
+}
+.iconos{
+	text-align: center;
+}
+.pieConsultas__texto{
+	font-family: $font;
+}
 /*Estilos a la seccion Promociones*/
-
-.secciones{
-	display: flex;
-	justify-content: space-around;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
 .secciones__imagen:hover{
-	transform: scale(1.1,1.1);
+	transform: scale(1.05,1.05);
 }
+.seccionPromo{
+	margin-top: 30px;
+	text-align: center;
+	font-family: $font;
+}
+
 .listaPromociones{
+	text-align: center;
+}
+.promociones__texto{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	margin-top: 50px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	color: black;
 	text-align: center;
 }
 
@@ -279,9 +303,6 @@ iframe{
 	*{
 		padding: 0px;
 	}
-	.iconos a{
-		display: none;
-	}
 	.leyenda{
 		font-size: 25px;
 		letter-spacing: 5px;
@@ -370,8 +391,12 @@ iframe{
 		margin-top: 5px;
 		font-size: 25px;
 	}
-
-
-
+	/*consultas*/
+	.imagenJames img{
+		display: none;
+	}
+	.pieConsultas a{
+		text-align: center;
+	}
 }
 

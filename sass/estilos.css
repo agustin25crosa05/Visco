@@ -40,7 +40,7 @@
 }
 
 .leyenda {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 20px;
   color: black;
   text-align: center;
@@ -59,7 +59,7 @@
 }
 
 .tituloPrincipal {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   line-height: 3;
   text-transform: uppercase;
   font-style: normal;
@@ -123,6 +123,7 @@
   height: 140px;
   width: auto;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .productos__texto {
@@ -154,7 +155,7 @@
 }
 
 .titulos {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font: 40px;
   color: #474d42;
   text-align: left;
@@ -180,38 +181,64 @@
 }
 
 .carousel-item h5 {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   color: black;
 }
 
 .carousel-item h6 {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   color: black;
 }
 
 h6 {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 12px;
 }
 
 /*Estilos a la seccion Consultas*/
-/*Estilos a la seccion Promociones*/
-.secciones {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.pieConsultas {
+  height: 90px;
 }
 
+.pieConsultas a {
+  margin-right: 10px;
+}
+
+.imagenJames {
+  text-align: right;
+}
+
+.iconos {
+  text-align: center;
+}
+
+.pieConsultas__texto {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/*Estilos a la seccion Promociones*/
 .secciones__imagen:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
+
+.seccionPromo {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .listaPromociones {
+  text-align: center;
+}
+
+.promociones__texto {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  margin-top: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: black;
   text-align: center;
 }
 
@@ -307,9 +334,6 @@ iframe {
   * {
     padding: 0px;
   }
-  .iconos a {
-    display: none;
-  }
   .leyenda {
     font-size: 25px;
     letter-spacing: 5px;
@@ -404,6 +428,13 @@ iframe {
   .productos__texto {
     margin-top: 5px;
     font-size: 25px;
+  }
+  /*consultas*/
+  .imagenJames img {
+    display: none;
+  }
+  .pieConsultas a {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
