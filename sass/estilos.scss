@@ -223,8 +223,20 @@ h6{
 	grid-template-columns: 300px 100px;
 	grid-template-rows: 40px 100px;
 }
+.nosotros__titulo{
+	font-family: $font;
+	text-align: center;
+}
+.nosotros__texto{
+	font-family: $font;
+	text-align: center;
+	font-size: 15px;
+}
 
 /*Estilos para la seccion Contacto*/
+.sitio{
+	font-family: $font;
+}
 iframe{
 	margin-left: 100px;
 }
@@ -232,6 +244,20 @@ iframe{
 	background-color: $color;
 	height: 350px;
 	width: auto;
+}
+.googleMaps{
+	position: relative;
+	padding-bottom: 50%;
+	height: 0;
+	overflow: visible;
+}
+.googleMaps iframe{
+	position: absolute;
+	top: 0;
+	width: 100% !important;
+	height: 100% !important;
+	margin-top: 80px;
+	margin-left: -2px;
 }
 
 /*Estilos para la seccion Reclamos*/
@@ -398,5 +424,7 @@ iframe{
 	.pieConsultas a{
 		text-align: center;
 	}
+	/*Contacto*/
+	
 }
 

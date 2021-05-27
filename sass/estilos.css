@@ -252,7 +252,22 @@ h6 {
       grid-template-rows: 40px 100px;
 }
 
+.nosotros__titulo {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+}
+
+.nosotros__texto {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
 /*Estilos para la seccion Contacto*/
+.sitio {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
 iframe {
   margin-left: 100px;
 }
@@ -261,6 +276,22 @@ iframe {
   background-color: rgba(136, 150, 131, 0.5);
   height: 350px;
   width: auto;
+}
+
+.googleMaps {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  overflow: visible;
+}
+
+.googleMaps iframe {
+  position: absolute;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+  margin-top: 80px;
+  margin-left: -2px;
 }
 
 /*Estilos para la seccion Reclamos*/
@@ -436,5 +467,6 @@ iframe {
   .pieConsultas a {
     text-align: center;
   }
+  /*Contacto*/
 }
 /*# sourceMappingURL=estilos.css.map */
