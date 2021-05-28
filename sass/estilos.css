@@ -266,32 +266,17 @@ h6 {
 /*Estilos para la seccion Contacto*/
 .sitio {
   font-family: "Noto Sans JP", sans-serif;
+  margin-top: 10px;
 }
 
-iframe {
-  margin-left: 100px;
+.contacto__contenedor {
+  height: 100px;
 }
 
-.contenedor__footer {
-  background-color: rgba(136, 150, 131, 0.5);
-  height: 350px;
-  width: auto;
-}
-
-.googleMaps {
-  position: relative;
-  padding-bottom: 50%;
-  height: 0;
-  overflow: visible;
-}
-
-.googleMaps iframe {
-  position: absolute;
-  top: 0;
-  width: 100% !important;
-  height: 100% !important;
-  margin-top: 80px;
-  margin-left: -2px;
+.contacto__texto {
+  font-family: "Noto Sans JP", sans-serif;
+  color: whitesmoke;
+  text-align: center;
 }
 
 /*Estilos para la seccion Reclamos*/

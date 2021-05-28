@@ -236,28 +236,15 @@ h6{
 /*Estilos para la seccion Contacto*/
 .sitio{
 	font-family: $font;
+	margin-top: 10px;
 }
-iframe{
-	margin-left: 100px;
+.contacto__contenedor{
+	height: 100px;
 }
-.contenedor__footer{
-	background-color: $color;
-	height: 350px;
-	width: auto;
-}
-.googleMaps{
-	position: relative;
-	padding-bottom: 50%;
-	height: 0;
-	overflow: visible;
-}
-.googleMaps iframe{
-	position: absolute;
-	top: 0;
-	width: 100% !important;
-	height: 100% !important;
-	margin-top: 80px;
-	margin-left: -2px;
+.contacto__texto{
+	font-family: $font;
+	color: whitesmoke;
+	text-align: center;
 }
 
 /*Estilos para la seccion Reclamos*/
