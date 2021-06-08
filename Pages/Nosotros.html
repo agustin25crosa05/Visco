@@ -12,54 +12,44 @@
 	<script src="../js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar sticky-top navbar-expand-xs navbar-light bg-transparent">
-		<div class="container-fluid nav-menu">
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="navegador__colapso collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Productos.html">Productos</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Consultas.html">Consultas</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Promociones.html">Promociones</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Nosotros.html">Nosotros</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Contacto.html">Contacto</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="Pages/Reclamos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							Reclamos
-						</a>
-						<ul class="navegador__despliegueSubmenu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<li><a class="dropdown-item" href="Reclamos.html">Reclamos</a></li>
-							<li><a class="dropdown-item" href="Subpages/Cómo puedo devolver mi pedido.html">Devolver pedido</a></li>
-							<li><a class="dropdown-item" href="Subpages/Cómo es el proceso de devolución de un pedido en Visco.html">Proceso de devolución</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			<a class="navbar-brand " href="Index.html">
-				<img src="../Img/fondo.png" alt="" width="80" height="">
-			</a>
+<nav class="navbar sticky-top navbar-expand-xs navbar-light bg-transparent">
+	<div class="container-fluid nav-menu">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navegador__colapso collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Productos.html">Productos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Consultas.html">Consultas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Promociones.html">Promociones</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Nosotros.html">Nosotros</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Contacto.html">Contacto</a>
+				</li>
+			</ul>
 		</div>
-	</nav>
+		<a class="navbar-brand" href="Index.html">
+			<img src="../Img/fondo.png" alt="" width="80" height="">
+		</a>
+	</div>
+</nav>
 <h1 class="titulos">Nosotros</h1>
 <div class="container justify-content-between">
 	<div class="row">
-		<div class="col-xs-12 col-lg-4">
+		<div class="col-xs-12 col-md-6 col-lg-4 imgUno">
 			<div class="card" style="width: 18rem;">
-				<img src="../Img/1.jpg" class="card-img-top" alt="1">
+				<img src="../Img/1.jpg" class="card-img-top img-fluid" alt="1">
 				<div class="card-body">
 				  <p class="card-text text-center">Crosa, Agustin</p>
 				  <br>
@@ -67,9 +57,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-lg-4">
+		<div class="col-xs-12 col-md-6 col-lg-4 imgDos">
 			<div class="card" style="width: 18rem;">
-				<img src="../Img/2.jpg" class="card-img-top" alt="2">
+				<img src="../Img/2.jpg" class="card-img-top img-fluid" alt="2">
 				<div class="card-body">
 				  <p class="card-text text-center">Crosa, Juan Ignacio</p>
 				  <br>
@@ -77,9 +67,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-lg-4">
+		<div class="col-xs-12 col-md-12 col-lg-4 imgTres">
 			<div class="card" style="width: 18rem;">
-				<img src="../Img/3.jpg" class="card-img-top" alt="3">
+				<img src="../Img/3.jpg" class="card-img-top img-fluid tres" alt="3">
 				<div class="card-body">
 				  <p class="card-text text-center">Crosa, Federico</p>
 				  <br>
@@ -89,9 +79,10 @@
 		</div>
 	</div>
 </div>
-	<div class="container bg-light mt-5">
+<div class="backGnosotros">
+	<div class="container mt-5">
 		<div class="row">
-			<h2 class="nosotros__titulo text-dark">VISION Y MISION</h2>
+			<h2 class="nosotros__titulo mt-5 text-dark">VISION Y MISION</h2>
 			<br>
 			<p class="nosotros__texto mt-5 mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis assumenda fuga quaerat animi veritatis ullam similique, explicabo saepe amet aspernatur earum accusantium cum modi qui laudantium tenetur quas nihil facere!
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis assumenda fuga quaerat animi veritatis ullam similique, explicabo saepe amet aspernatur earum accusantium cum modi qui laudantium tenetur quas nihil facere!
@@ -103,5 +94,6 @@
 			</p>
 		</div>
 	</div>
+</div>
 	</body>
 	</html>

@@ -102,12 +102,12 @@
 }
 
 .botonAcceso {
-  margin-left: 960px;
   margin-top: 30px;
 }
 
 .reclamos {
   text-align: right;
+  margin-top: 70px;
 }
 
 .reclamos a {
@@ -121,15 +121,13 @@
 .productos__banner {
   background-color: #ede734;
   height: 140px;
-  width: auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin: 0% 0% 5% 0%;
 }
 
 .productos__texto {
   font-family: 'Bebas Neue', cursive;
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 180%;
+  margin: 4% 0% 0% 45%;
   letter-spacing: 3px;
   font-weight: bold;
   color: black;
@@ -137,11 +135,9 @@
 
 .productos__newsletter {
   background-color: black;
-  height: 60px;
-  width: 400px;
-  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.23);
-          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.23);
-  margin-top: 35px;
+  height: 70%;
+  width: 40%;
+  margin: 4% 0% 0% 0%;
 }
 
 .productos__newsletter a {
@@ -150,6 +146,7 @@
 
 .newsletter__texto {
   color: white;
+  font-size: 100%;
   text-align: center;
   margin-top: 10px;
 }
@@ -217,6 +214,14 @@ h6 {
 }
 
 /*Estilos a la seccion Promociones*/
+.promociones__banner {
+  background-color: #ede734;
+}
+
+.secciones__imagen {
+  margin-top: 50px;
+}
+
 .secciones__imagen:hover {
   -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
@@ -235,7 +240,7 @@ h6 {
 .promociones__texto {
   font-family: 'Bebas Neue', cursive;
   font-size: 30px;
-  margin-top: 50px;
+  margin: 5% 0% 5% 0%;
   letter-spacing: 3px;
   font-weight: bold;
   color: black;
@@ -263,6 +268,11 @@ h6 {
   font-size: 15px;
 }
 
+.backGnosotros {
+  background-color: #e2e2e2;
+  height: auto;
+}
+
 /*Estilos para la seccion Contacto*/
 .sitio {
   font-family: "Noto Sans JP", sans-serif;
@@ -276,39 +286,130 @@ h6 {
 .contacto__texto {
   font-family: "Noto Sans JP", sans-serif;
   color: whitesmoke;
-  text-align: center;
-}
-
-/*Estilos para la seccion Reclamos*/
-.subtitulo {
-  border: solid 1px black;
-  width: 200px;
-  margin-left: 40%;
-  margin-bottom: 30px;
-}
-
-.subtitulo__Reclamos0 {
-  text-decoration: line-through;
-  text-align: center;
-}
-
-.subtitulo__Reclamos {
-  text-align: center;
-}
-
-.recuadroReclamos {
-  border: solid 2px grey;
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: rgba(156, 151, 151, 0.2);
 }
 
 /*-------------------Aplicando medias-------------------*/
+@media only screen and (max-width: 1757px) {
+  .productos__texto {
+    font-size: 170%;
+    margin: 5% 0% 0% 35%;
+  }
+  .productos__newsletter {
+    height: 70%;
+    width: 40%;
+    margin: 4% 0% 0% 0%;
+  }
+}
+
+@media only screen and (max-width: 1431px) {
+  .productos__texto {
+    font-size: 160%;
+    margin: 6% 0% 0% 35%;
+  }
+  .productos__newsletter {
+    height: 65%;
+    width: 40%;
+    margin: 5% 0% 0% 0%;
+  }
+}
+
+@media only screen and (max-width: 1368px) {
+  .productos__texto {
+    font-size: 150%;
+    margin: 6% 0% 0% 35%;
+  }
+  .productos__newsletter {
+    width: 40%;
+    margin: 5% 0% 0% 0%;
+  }
+}
+
+@media only screen and (max-width: 1306px) {
+  .productos__texto {
+    text-align: center;
+  }
+  .productos__newsletter {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1163px) {
+  .productos__texto {
+    margin: 7% 0% 0% 0%;
+    font-size: 140%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .productos__banner {
+    display: none;
+  }
+  .productos__texto {
+    display: none;
+  }
+  .carouselPromociones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .secciones__imagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .imgTres {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tres {
+    margin-top: 20px;
+  }
+  .publicidadPromociones {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .imgUno {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .imgDos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .imgTres {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   * {
     padding: 0px;
@@ -319,10 +420,6 @@ h6 {
   .leyenda {
     font-size: 25px;
     letter-spacing: 5px;
-  }
-  .enlacesSuperiores li a {
-    display: inline;
-    color: grey;
   }
   .publicidad {
     background-image: url(../Img/publicidad-e1571517407869.jpg);
@@ -344,6 +441,15 @@ h6 {
   .accesoContraseña {
     font-size: 15px;
   }
+  .imagenJames {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .promociones__texto {
+    font-size: 140%;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -353,25 +459,6 @@ h6 {
   .leyenda {
     font-size: 25px;
     letter-spacing: 5px;
-  }
-  .enlacesSuperiores {
-    margin-top: -30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: white;
-    margin-bottom: 10px;
-  }
-  .enlacesSuperiores li a {
-    display: inline;
-    color: grey;
   }
   .publicidad {
     background-image: url("../Img/publicidadpequeña.jpg");
@@ -395,8 +482,6 @@ h6 {
   }
   .reclamos {
     text-align: center;
-    margin-right: 50px;
-    margin-left: 50px;
     margin-top: 30px;
     text-decoration: none;
   }
@@ -423,10 +508,6 @@ h6 {
   .acceso__Contraseña {
     font-size: 15px;
     text-align: center;
-  }
-  .botonAcceso {
-    text-align: center;
-    margin-left: 130px;
   }
   .reclamos {
     display: none;
